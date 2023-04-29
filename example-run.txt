@@ -1,0 +1,782 @@
+# time ./satellite-conf-report.sh 
+
+Satellite Configuration report
+-------------------------------
+
+This commands gathers information about your satellite configuration and
+creates a file with output of hammer commands.
+
+You need to have a working hammer configuration prior to launching this command.
+
+reportfile is at /tmp/satellite-conf-report-sat-reporting.p1.lab-2023.04.29.md
+
+
+=== Getting details of alternate-content-source
+Error: No such sub-command 'alternate-content-source'.
+
+See: 'hammer --help'.
+=== Getting details of ansible roles
+Getting ansible roles 1 of 42
+Getting ansible roles 2 of 42
+Getting ansible roles 3 of 42
+Getting ansible roles 4 of 42
+Getting ansible roles 5 of 42
+Getting ansible roles 6 of 42
+Getting ansible roles 7 of 42
+Getting ansible roles 8 of 42
+Getting ansible roles 9 of 42
+Getting ansible roles 10 of 42
+Getting ansible roles 11 of 42
+Getting ansible roles 12 of 42
+Getting ansible roles 13 of 42
+Getting ansible roles 14 of 42
+Getting ansible roles 15 of 42
+Getting ansible roles 16 of 42
+Getting ansible roles 17 of 42
+Getting ansible roles 18 of 42
+Getting ansible roles 19 of 42
+Getting ansible roles 20 of 42
+Getting ansible roles 21 of 42
+Getting ansible roles 22 of 42
+Getting ansible roles 23 of 42
+Getting ansible roles 24 of 42
+Getting ansible roles 25 of 42
+Getting ansible roles 26 of 42
+Getting ansible roles 27 of 42
+Getting ansible roles 28 of 42
+Getting ansible roles 29 of 42
+Getting ansible roles 30 of 42
+Getting ansible roles 31 of 42
+Getting ansible roles 32 of 42
+Getting ansible roles 33 of 42
+Getting ansible roles 34 of 42
+Getting ansible roles 35 of 42
+Getting ansible roles 36 of 42
+Getting ansible roles 37 of 42
+Getting ansible roles 38 of 42
+Getting ansible roles 39 of 42
+Getting ansible roles 40 of 42
+Getting ansible roles 41 of 42
+Getting ansible roles 42 of 42
+=== Getting details of ansible variables
+Getting ansible variables 1 of 404
+Getting ansible variables 2 of 404
+Getting ansible variables 3 of 404
+Getting ansible variables 4 of 404
+Getting ansible variables 5 of 404
+Getting ansible variables 6 of 404
+Getting ansible variables 7 of 404
+Getting ansible variables 8 of 404
+Getting ansible variables 9 of 404
+Getting ansible variables 10 of 404
+Getting ansible variables 11 of 404
+Getting ansible variables 12 of 404
+Getting ansible variables 13 of 404
+Getting ansible variables 14 of 404
+Getting ansible variables 15 of 404
+Getting ansible variables 16 of 404
+Getting ansible variables 17 of 404
+Getting ansible variables 18 of 404
+Getting ansible variables 19 of 404
+Getting ansible variables 20 of 404
+Getting ansible variables 21 of 404
+Getting ansible variables 22 of 404
+Getting ansible variables 23 of 404
+Getting ansible variables 24 of 404
+Getting ansible variables 25 of 404
+Getting ansible variables 26 of 404
+Getting ansible variables 27 of 404
+Getting ansible variables 28 of 404
+Getting ansible variables 29 of 404
+Getting ansible variables 30 of 404
+Getting ansible variables 31 of 404
+Getting ansible variables 32 of 404
+Getting ansible variables 33 of 404
+Getting ansible variables 34 of 404
+Getting ansible variables 35 of 404
+Getting ansible variables 36 of 404
+Getting ansible variables 37 of 404
+Getting ansible variables 38 of 404
+Getting ansible variables 39 of 404
+Getting ansible variables 40 of 404
+Getting ansible variables 41 of 404
+Getting ansible variables 42 of 404
+Getting ansible variables 43 of 404
+Getting ansible variables 44 of 404
+Getting ansible variables 45 of 404
+Getting ansible variables 46 of 404
+Getting ansible variables 47 of 404
+Getting ansible variables 48 of 404
+Getting ansible variables 49 of 404
+Getting ansible variables 50 of 404
+Getting ansible variables 51 of 404
+Getting ansible variables 52 of 404
+Getting ansible variables 53 of 404
+Getting ansible variables 54 of 404
+Getting ansible variables 55 of 404
+Getting ansible variables 56 of 404
+Getting ansible variables 57 of 404
+Getting ansible variables 58 of 404
+Getting ansible variables 59 of 404
+Getting ansible variables 60 of 404
+Getting ansible variables 61 of 404
+Getting ansible variables 62 of 404
+Getting ansible variables 63 of 404
+Getting ansible variables 64 of 404
+Getting ansible variables 65 of 404
+Getting ansible variables 66 of 404
+Getting ansible variables 67 of 404
+Getting ansible variables 68 of 404
+Getting ansible variables 69 of 404
+Getting ansible variables 70 of 404
+Getting ansible variables 71 of 404
+Getting ansible variables 72 of 404
+Getting ansible variables 73 of 404
+Getting ansible variables 74 of 404
+Getting ansible variables 75 of 404
+Getting ansible variables 76 of 404
+Getting ansible variables 77 of 404
+Getting ansible variables 78 of 404
+Getting ansible variables 79 of 404
+Getting ansible variables 80 of 404
+Getting ansible variables 81 of 404
+Getting ansible variables 82 of 404
+Getting ansible variables 83 of 404
+Getting ansible variables 84 of 404
+Getting ansible variables 85 of 404
+Getting ansible variables 86 of 404
+Getting ansible variables 87 of 404
+Getting ansible variables 88 of 404
+Getting ansible variables 89 of 404
+Getting ansible variables 90 of 404
+Getting ansible variables 91 of 404
+Getting ansible variables 92 of 404
+Getting ansible variables 93 of 404
+Getting ansible variables 94 of 404
+Getting ansible variables 95 of 404
+Getting ansible variables 96 of 404
+Getting ansible variables 97 of 404
+Getting ansible variables 98 of 404
+Getting ansible variables 99 of 404
+Getting ansible variables 100 of 404
+Getting ansible variables 101 of 404
+Getting ansible variables 102 of 404
+Getting ansible variables 103 of 404
+Getting ansible variables 104 of 404
+Getting ansible variables 105 of 404
+Getting ansible variables 106 of 404
+Getting ansible variables 107 of 404
+Getting ansible variables 108 of 404
+Getting ansible variables 109 of 404
+Getting ansible variables 110 of 404
+Getting ansible variables 111 of 404
+Getting ansible variables 112 of 404
+Getting ansible variables 113 of 404
+Getting ansible variables 114 of 404
+Getting ansible variables 115 of 404
+Getting ansible variables 116 of 404
+Getting ansible variables 117 of 404
+Getting ansible variables 118 of 404
+Getting ansible variables 119 of 404
+Getting ansible variables 120 of 404
+Getting ansible variables 121 of 404
+Getting ansible variables 122 of 404
+Getting ansible variables 123 of 404
+Getting ansible variables 124 of 404
+Getting ansible variables 125 of 404
+Getting ansible variables 126 of 404
+Getting ansible variables 127 of 404
+Getting ansible variables 128 of 404
+Getting ansible variables 129 of 404
+Getting ansible variables 130 of 404
+Getting ansible variables 131 of 404
+Getting ansible variables 132 of 404
+Getting ansible variables 133 of 404
+Getting ansible variables 134 of 404
+Getting ansible variables 135 of 404
+Getting ansible variables 136 of 404
+Getting ansible variables 137 of 404
+Getting ansible variables 138 of 404
+Getting ansible variables 139 of 404
+Getting ansible variables 140 of 404
+Getting ansible variables 141 of 404
+Getting ansible variables 142 of 404
+Getting ansible variables 143 of 404
+Getting ansible variables 144 of 404
+Getting ansible variables 145 of 404
+Getting ansible variables 146 of 404
+Getting ansible variables 147 of 404
+Getting ansible variables 148 of 404
+Getting ansible variables 149 of 404
+Getting ansible variables 150 of 404
+Getting ansible variables 151 of 404
+Getting ansible variables 152 of 404
+Getting ansible variables 153 of 404
+Getting ansible variables 154 of 404
+Getting ansible variables 155 of 404
+Getting ansible variables 156 of 404
+Getting ansible variables 157 of 404
+Getting ansible variables 158 of 404
+Getting ansible variables 159 of 404
+Getting ansible variables 160 of 404
+Getting ansible variables 161 of 404
+Getting ansible variables 162 of 404
+Getting ansible variables 163 of 404
+Getting ansible variables 164 of 404
+Getting ansible variables 165 of 404
+Getting ansible variables 166 of 404
+Getting ansible variables 167 of 404
+Getting ansible variables 168 of 404
+Getting ansible variables 169 of 404
+Getting ansible variables 170 of 404
+Getting ansible variables 171 of 404
+Getting ansible variables 172 of 404
+Getting ansible variables 173 of 404
+Getting ansible variables 174 of 404
+Getting ansible variables 175 of 404
+Getting ansible variables 176 of 404
+Getting ansible variables 177 of 404
+Getting ansible variables 178 of 404
+Getting ansible variables 179 of 404
+Getting ansible variables 180 of 404
+Getting ansible variables 181 of 404
+Getting ansible variables 182 of 404
+Getting ansible variables 183 of 404
+Getting ansible variables 184 of 404
+Getting ansible variables 185 of 404
+Getting ansible variables 186 of 404
+Getting ansible variables 187 of 404
+Getting ansible variables 188 of 404
+Getting ansible variables 189 of 404
+Getting ansible variables 190 of 404
+Getting ansible variables 191 of 404
+Getting ansible variables 192 of 404
+Getting ansible variables 193 of 404
+Getting ansible variables 194 of 404
+Getting ansible variables 195 of 404
+Getting ansible variables 196 of 404
+Getting ansible variables 197 of 404
+Getting ansible variables 198 of 404
+Getting ansible variables 199 of 404
+Getting ansible variables 200 of 404
+Getting ansible variables 201 of 404
+Getting ansible variables 202 of 404
+Getting ansible variables 203 of 404
+Getting ansible variables 204 of 404
+Getting ansible variables 205 of 404
+Getting ansible variables 206 of 404
+Getting ansible variables 207 of 404
+Getting ansible variables 208 of 404
+Getting ansible variables 209 of 404
+Getting ansible variables 210 of 404
+Getting ansible variables 211 of 404
+Getting ansible variables 212 of 404
+Getting ansible variables 213 of 404
+Getting ansible variables 214 of 404
+Getting ansible variables 215 of 404
+Getting ansible variables 216 of 404
+Getting ansible variables 217 of 404
+Getting ansible variables 218 of 404
+Getting ansible variables 219 of 404
+Getting ansible variables 220 of 404
+Getting ansible variables 221 of 404
+Getting ansible variables 222 of 404
+Getting ansible variables 223 of 404
+Getting ansible variables 224 of 404
+Getting ansible variables 225 of 404
+Getting ansible variables 226 of 404
+Getting ansible variables 227 of 404
+Getting ansible variables 228 of 404
+Getting ansible variables 229 of 404
+Getting ansible variables 230 of 404
+Getting ansible variables 231 of 404
+Getting ansible variables 232 of 404
+Getting ansible variables 233 of 404
+Getting ansible variables 234 of 404
+Getting ansible variables 235 of 404
+Getting ansible variables 236 of 404
+Getting ansible variables 237 of 404
+Getting ansible variables 238 of 404
+Getting ansible variables 239 of 404
+Getting ansible variables 240 of 404
+Getting ansible variables 241 of 404
+Getting ansible variables 242 of 404
+Getting ansible variables 243 of 404
+Getting ansible variables 244 of 404
+Getting ansible variables 245 of 404
+Getting ansible variables 246 of 404
+Getting ansible variables 247 of 404
+Getting ansible variables 248 of 404
+Getting ansible variables 249 of 404
+Getting ansible variables 250 of 404
+Getting ansible variables 251 of 404
+Getting ansible variables 252 of 404
+Getting ansible variables 253 of 404
+Getting ansible variables 254 of 404
+Getting ansible variables 255 of 404
+Getting ansible variables 256 of 404
+Getting ansible variables 257 of 404
+Getting ansible variables 258 of 404
+Getting ansible variables 259 of 404
+Getting ansible variables 260 of 404
+Getting ansible variables 261 of 404
+Getting ansible variables 262 of 404
+Getting ansible variables 263 of 404
+Getting ansible variables 264 of 404
+Getting ansible variables 265 of 404
+Getting ansible variables 266 of 404
+Getting ansible variables 267 of 404
+Getting ansible variables 268 of 404
+Getting ansible variables 269 of 404
+Getting ansible variables 270 of 404
+Getting ansible variables 271 of 404
+Getting ansible variables 272 of 404
+Getting ansible variables 273 of 404
+Getting ansible variables 274 of 404
+Getting ansible variables 275 of 404
+Getting ansible variables 276 of 404
+Getting ansible variables 277 of 404
+Getting ansible variables 278 of 404
+Getting ansible variables 279 of 404
+Getting ansible variables 280 of 404
+Getting ansible variables 281 of 404
+Getting ansible variables 282 of 404
+Getting ansible variables 283 of 404
+Getting ansible variables 284 of 404
+Getting ansible variables 285 of 404
+Getting ansible variables 286 of 404
+Getting ansible variables 287 of 404
+Getting ansible variables 288 of 404
+Getting ansible variables 289 of 404
+Getting ansible variables 290 of 404
+Getting ansible variables 291 of 404
+Getting ansible variables 292 of 404
+Getting ansible variables 293 of 404
+Getting ansible variables 294 of 404
+Getting ansible variables 295 of 404
+Getting ansible variables 296 of 404
+Getting ansible variables 297 of 404
+Getting ansible variables 298 of 404
+Getting ansible variables 299 of 404
+Getting ansible variables 300 of 404
+Getting ansible variables 301 of 404
+Getting ansible variables 302 of 404
+Getting ansible variables 303 of 404
+Getting ansible variables 304 of 404
+Getting ansible variables 305 of 404
+Getting ansible variables 306 of 404
+Getting ansible variables 307 of 404
+Getting ansible variables 308 of 404
+Getting ansible variables 309 of 404
+Getting ansible variables 310 of 404
+Getting ansible variables 311 of 404
+Getting ansible variables 312 of 404
+Getting ansible variables 313 of 404
+Getting ansible variables 314 of 404
+Getting ansible variables 315 of 404
+Getting ansible variables 316 of 404
+Getting ansible variables 317 of 404
+Getting ansible variables 318 of 404
+Getting ansible variables 319 of 404
+Getting ansible variables 320 of 404
+Getting ansible variables 321 of 404
+Getting ansible variables 322 of 404
+Getting ansible variables 323 of 404
+Getting ansible variables 324 of 404
+Getting ansible variables 325 of 404
+Getting ansible variables 326 of 404
+Getting ansible variables 327 of 404
+Getting ansible variables 328 of 404
+Getting ansible variables 329 of 404
+Getting ansible variables 330 of 404
+Getting ansible variables 331 of 404
+Getting ansible variables 332 of 404
+Getting ansible variables 333 of 404
+Getting ansible variables 334 of 404
+Getting ansible variables 335 of 404
+Getting ansible variables 336 of 404
+Getting ansible variables 337 of 404
+Getting ansible variables 338 of 404
+Getting ansible variables 339 of 404
+Getting ansible variables 340 of 404
+Getting ansible variables 341 of 404
+Getting ansible variables 342 of 404
+Getting ansible variables 343 of 404
+Getting ansible variables 344 of 404
+Getting ansible variables 345 of 404
+Getting ansible variables 346 of 404
+Getting ansible variables 347 of 404
+Getting ansible variables 348 of 404
+Getting ansible variables 349 of 404
+Getting ansible variables 350 of 404
+Getting ansible variables 351 of 404
+Getting ansible variables 352 of 404
+Getting ansible variables 353 of 404
+Getting ansible variables 354 of 404
+Getting ansible variables 355 of 404
+Getting ansible variables 356 of 404
+Getting ansible variables 357 of 404
+Getting ansible variables 358 of 404
+Getting ansible variables 359 of 404
+Getting ansible variables 360 of 404
+Getting ansible variables 361 of 404
+Getting ansible variables 362 of 404
+Getting ansible variables 363 of 404
+Getting ansible variables 364 of 404
+Getting ansible variables 365 of 404
+Getting ansible variables 366 of 404
+Getting ansible variables 367 of 404
+Getting ansible variables 368 of 404
+Getting ansible variables 369 of 404
+Getting ansible variables 370 of 404
+Getting ansible variables 371 of 404
+Getting ansible variables 372 of 404
+Getting ansible variables 373 of 404
+Getting ansible variables 374 of 404
+Getting ansible variables 375 of 404
+Getting ansible variables 376 of 404
+Getting ansible variables 377 of 404
+Getting ansible variables 378 of 404
+Getting ansible variables 379 of 404
+Getting ansible variables 380 of 404
+Getting ansible variables 381 of 404
+Getting ansible variables 382 of 404
+Getting ansible variables 383 of 404
+Getting ansible variables 384 of 404
+Getting ansible variables 385 of 404
+Getting ansible variables 386 of 404
+Getting ansible variables 387 of 404
+Getting ansible variables 388 of 404
+Getting ansible variables 389 of 404
+Getting ansible variables 390 of 404
+Getting ansible variables 391 of 404
+Getting ansible variables 392 of 404
+Getting ansible variables 393 of 404
+Getting ansible variables 394 of 404
+Getting ansible variables 395 of 404
+Getting ansible variables 396 of 404
+Getting ansible variables 397 of 404
+Getting ansible variables 398 of 404
+Getting ansible variables 399 of 404
+Getting ansible variables 400 of 404
+Getting ansible variables 401 of 404
+Getting ansible variables 402 of 404
+Getting ansible variables 403 of 404
+Getting ansible variables 404 of 404
+=== Getting details of architecture
+Getting architecture 1 of 2
+Getting architecture 2 of 2
+=== Getting details of auth-source external
+Error: No such sub-command 'external'.
+
+See: 'hammer auth-source --help'.
+=== Getting details of capsule
+Getting capsule 1 of 1
+=== Getting details of compute-profile
+Getting compute-profile 1 of 5
+Getting compute-profile 2 of 5
+Getting compute-profile 3 of 5
+Getting compute-profile 4 of 5
+Getting compute-profile 5 of 5
+=== Getting details of compute-resource
+Getting compute-resource 1 of 1
+=== Getting details of config-report
+Getting config-report 1 of 34
+Getting config-report 2 of 34
+Getting config-report 3 of 34
+Getting config-report 4 of 34
+Getting config-report 5 of 34
+Getting config-report 6 of 34
+Getting config-report 7 of 34
+Getting config-report 8 of 34
+Getting config-report 9 of 34
+Getting config-report 10 of 34
+Getting config-report 11 of 34
+Getting config-report 12 of 34
+Getting config-report 13 of 34
+Getting config-report 14 of 34
+Getting config-report 15 of 34
+Getting config-report 16 of 34
+Getting config-report 17 of 34
+Getting config-report 18 of 34
+Getting config-report 19 of 34
+Getting config-report 20 of 34
+Getting config-report 21 of 34
+Getting config-report 22 of 34
+Getting config-report 23 of 34
+Getting config-report 24 of 34
+Getting config-report 25 of 34
+Getting config-report 26 of 34
+Getting config-report 27 of 34
+Getting config-report 28 of 34
+Getting config-report 29 of 34
+Getting config-report 30 of 34
+Getting config-report 31 of 34
+Getting config-report 32 of 34
+Getting config-report 33 of 34
+Getting config-report 34 of 34
+=== Getting details of defaults
+=== Getting details of discovery
+=== Getting details of discovery-rule
+Getting discovery-rule 1 of 1
+=== Getting details of domain
+Getting domain 1 of 1
+=== Getting details of file
+=== Getting details of global-parameter
+=== Getting details of host
+=== Getting details of host-collection
+Getting host-collection 1 of 1
+=== Getting details of hostgroup
+Getting hostgroup 1 of 8
+Getting hostgroup 2 of 8
+Getting hostgroup 3 of 8
+Getting hostgroup 4 of 8
+Getting hostgroup 5 of 8
+Getting hostgroup 6 of 8
+Getting hostgroup 7 of 8
+Getting hostgroup 8 of 8
+=== Getting details of http-proxy
+Error: No such sub-command 'http-proxy'.
+
+See: 'hammer --help'.
+=== Getting details of job-template
+=== Getting details of location
+Getting location 1 of 1
+=== Getting details of mail-notification
+Error: No such sub-command 'mail-notification'.
+
+See: 'hammer --help'.
+=== Getting details of medium
+Getting medium 1 of 9
+Getting medium 2 of 9
+Getting medium 3 of 9
+Getting medium 4 of 9
+Getting medium 5 of 9
+Getting medium 6 of 9
+Getting medium 7 of 9
+Getting medium 8 of 9
+Getting medium 9 of 9
+=== Getting details of model
+Getting model 1 of 1
+=== Getting details of organization
+Warning: Option --environments is deprecated. Use --puppet-environments instead
+Warning: Option --environment-ids is deprecated. Use --puppet-environment-ids instead
+Getting organization 1 of 2
+Getting organization 2 of 2
+=== Getting details of os
+Getting os 1 of 2
+Getting os 2 of 2
+=== Getting details of partition-table
+Getting partition-table 1 of 15
+Getting partition-table 2 of 15
+Getting partition-table 3 of 15
+Getting partition-table 4 of 15
+Getting partition-table 5 of 15
+Getting partition-table 6 of 15
+Getting partition-table 7 of 15
+Getting partition-table 8 of 15
+Getting partition-table 9 of 15
+Getting partition-table 10 of 15
+Getting partition-table 11 of 15
+Getting partition-table 12 of 15
+Getting partition-table 13 of 15
+Getting partition-table 14 of 15
+Getting partition-table 15 of 15
+=== Getting details of policy
+=== Getting details of proxy
+Getting proxy 1 of 1
+=== Getting details of realm
+Getting realm 1 of 1
+=== Getting details of recurring-logic
+Getting recurring-logic 1 of 4
+Getting recurring-logic 2 of 4
+Getting recurring-logic 3 of 4
+Getting recurring-logic 4 of 4
+=== Getting details of remote-execution-feature
+Getting remote-execution-feature 1 of 12
+Getting remote-execution-feature 2 of 12
+Getting remote-execution-feature 3 of 12
+Getting remote-execution-feature 4 of 12
+Getting remote-execution-feature 5 of 12
+Getting remote-execution-feature 6 of 12
+Getting remote-execution-feature 7 of 12
+Getting remote-execution-feature 8 of 12
+Getting remote-execution-feature 9 of 12
+Getting remote-execution-feature 10 of 12
+Getting remote-execution-feature 11 of 12
+Getting remote-execution-feature 12 of 12
+=== Getting details of report
+report command is deprecated and will be removed in one of the future versions. Please use config-report command instead.
+Getting report 1 of 34
+Getting report 2 of 34
+Getting report 3 of 34
+Getting report 4 of 34
+Getting report 5 of 34
+Getting report 6 of 34
+Getting report 7 of 34
+Getting report 8 of 34
+Getting report 9 of 34
+Getting report 10 of 34
+Getting report 11 of 34
+Getting report 12 of 34
+Getting report 13 of 34
+Getting report 14 of 34
+Getting report 15 of 34
+Getting report 16 of 34
+Getting report 17 of 34
+Getting report 18 of 34
+Getting report 19 of 34
+Getting report 20 of 34
+Getting report 21 of 34
+Getting report 22 of 34
+Getting report 23 of 34
+Getting report 24 of 34
+Getting report 25 of 34
+Getting report 26 of 34
+Getting report 27 of 34
+Getting report 28 of 34
+Getting report 29 of 34
+Getting report 30 of 34
+Getting report 31 of 34
+Getting report 32 of 34
+Getting report 33 of 34
+Getting report 34 of 34
+=== Getting details of report-template
+Getting report-template 1 of 5
+Getting report-template 2 of 5
+Getting report-template 3 of 5
+Getting report-template 4 of 5
+Getting report-template 5 of 5
+=== Getting details of role
+Getting role 1 of 30
+Getting role 2 of 30
+Getting role 3 of 30
+Getting role 4 of 30
+Getting role 5 of 30
+Getting role 6 of 30
+Getting role 7 of 30
+Getting role 8 of 30
+Getting role 9 of 30
+Getting role 10 of 30
+Getting role 11 of 30
+Getting role 12 of 30
+Getting role 13 of 30
+Getting role 14 of 30
+Getting role 15 of 30
+Getting role 16 of 30
+Getting role 17 of 30
+Getting role 18 of 30
+Getting role 19 of 30
+Getting role 20 of 30
+Getting role 21 of 30
+Getting role 22 of 30
+Getting role 23 of 30
+Getting role 24 of 30
+Getting role 25 of 30
+Getting role 26 of 30
+Getting role 27 of 30
+Getting role 28 of 30
+Getting role 29 of 30
+Getting role 30 of 30
+=== Getting details of scap-content
+=== Getting details of scap-content-profile
+Error: No such sub-command 'scap-content-profile'.
+
+See: 'hammer --help'.
+=== Getting details of settings
+=== Getting details of subnet
+Getting subnet 1 of 1
+=== Getting details of tailoring-file
+=== Getting details of template
+=== Getting details of template-input
+Missing arguments for 'template_id'
+=== Getting details of user
+Getting user 1 of 1
+=== Getting details of user-group
+=== Getting details of virt-who-config
+Getting virt-who-config 1 of 1
+=== Getting details of webhook
+Error: No such sub-command 'webhook'.
+
+See: 'hammer --help'.
+=== Getting details of webhook-template
+Error: No such sub-command 'webhook-template'.
+
+See: 'hammer --help'.
+Warning: Option --environments is deprecated. Use --puppet-environments instead
+Warning: Option --environment-ids is deprecated. Use --puppet-environment-ids instead
+==================== Getting information for organization RHCI
+=== Getting details of activation-key (RHCI)
+Getting activation-key 1 of 2
+Getting activation-key 2 of 2
+=== Getting details of ansible roles (RHCI)
+Association not found for organization
+=== Getting details of ansible variables (RHCI)
+Association not found for organization
+=== Getting details of content-credentials (RHCI)
+Error: No such sub-command 'content-credentials'.
+
+See: 'hammer --help'.
+=== Getting details of content-view (RHCI)
+Getting content-view 1 of 5
+Getting content-view 2 of 5
+Getting content-view 3 of 5
+Getting content-view 4 of 5
+Getting content-view 5 of 5
+=== Getting details of host-collection (RHCI)
+Getting host-collection 1 of 1
+=== Getting details of hostgroup (RHCI)
+Getting hostgroup 1 of 8
+Getting hostgroup 2 of 8
+Getting hostgroup 3 of 8
+Getting hostgroup 4 of 8
+Getting hostgroup 5 of 8
+Getting hostgroup 6 of 8
+Getting hostgroup 7 of 8
+Getting hostgroup 8 of 8
+=== Getting details of lifecycle-environment (RHCI)
+Getting lifecycle-environment 1 of 7
+Getting lifecycle-environment 2 of 7
+Getting lifecycle-environment 3 of 7
+Getting lifecycle-environment 4 of 7
+Getting lifecycle-environment 5 of 7
+Getting lifecycle-environment 6 of 7
+Getting lifecycle-environment 7 of 7
+=== Getting details of product (RHCI)
+Getting product 1 of 2
+Getting product 2 of 2
+=== Getting details of subscription (RHCI)
+=== Getting details of sync-plan (RHCI)
+Getting sync-plan 1 of 2
+Getting sync-plan 2 of 2
+=== Getting details of repository (RHCI)
+==================== Getting information for organization Wëird Orgañization 鋼の錬金術師
+=== Getting details of activation-key (Wëird Orgañization 鋼の錬金術師)
+=== Getting details of ansible roles (Wëird Orgañization 鋼の錬金術師)
+Association not found for organization
+=== Getting details of ansible variables (Wëird Orgañization 鋼の錬金術師)
+Association not found for organization
+=== Getting details of content-credentials (Wëird Orgañization 鋼の錬金術師)
+Error: No such sub-command 'content-credentials'.
+
+See: 'hammer --help'.
+=== Getting details of content-view (Wëird Orgañization 鋼の錬金術師)
+Getting content-view 1 of 2
+Getting content-view 2 of 2
+=== Getting details of host-collection (Wëird Orgañization 鋼の錬金術師)
+=== Getting details of hostgroup (Wëird Orgañization 鋼の錬金術師)
+=== Getting details of lifecycle-environment (Wëird Orgañization 鋼の錬金術師)
+Getting lifecycle-environment 1 of 1
+=== Getting details of product (Wëird Orgañization 鋼の錬金術師)
+Getting product 1 of 1
+=== Getting details of subscription (Wëird Orgañization 鋼の錬金術師)
+=== Getting details of sync-plan (Wëird Orgañization 鋼の錬金術師)
+=== Getting details of repository (Wëird Orgañization 鋼の錬金術師)
+
+The report is now available at /tmp/satellite-conf-report-sat-reporting.p1.lab-2023.04.29.md 
+
+
+
+real	18m46.912s
+user	15m25.504s
+sys	2m2.112s
