@@ -47,7 +47,7 @@ Storage and filesystems:
 
 $(df -PTh)
 
-$(lslbk)
+$(lsblk)
 
 CPUs:
 
