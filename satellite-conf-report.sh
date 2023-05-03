@@ -1,7 +1,10 @@
 #!/bin/bash
 
+source /etc/os-release
+
 # Default report location location
-reportfile=/tmp/satellite-conf-report-$HOSTNAME-$(date +%Y.%m.%d).md
+reportfile="/tmp/satellite-conf-report_${HOSTNAME}_$(date +%Y.%m.%d_%H%M%S)_${ID}-${VERSION_ID}.md"
+starttime=$(date +%s)
 
 # List of hammer items where we don't want to issue a hammer $thing info --id X,
 # either because they are too verbose, take too long, or don't provide relevant
@@ -216,10 +219,16 @@ hammer --csv organization list  | cut -d , -f 2 | tail -n +2 | while read org; d
   done
 done
 
-echo "End of report." >> $reportfile
+endtime=$(date +%s)
+duration=$(expr $endtime - $starttime)
+
+echo "Generation of report took $duration seconds. 
+
+End of report." >> $reportfile
 chmod 644 $reportfile
 
 echo "
+Generation of report took $duration seconds.
 The report is now available at $reportfile 
 
 "
