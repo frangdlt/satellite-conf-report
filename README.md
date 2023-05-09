@@ -1,6 +1,6 @@
 # About satellite-conf-report
 
-satellite-conf-report is a simple tool that uses hammer to create a text / Markdown
+satellite-conf-report is a simple tool that uses `hammer` to create a text / Markdown
 report of your Satellite configuration. 
 
 It can help in the following cases:
@@ -11,8 +11,9 @@ It can help in the following cases:
 
 ## Running satellite-conf-report
 
-You can run the tool directly in Satellite. Just download the script, and run
-it. It does not perform any change in the running operating system or install
+You can run [satellite-conf-report.sh](https://raw.githubusercontent.com/frangdlt/satellite-conf-report/main/satellite-conf-report.sh)  
+directly in Satellite. Just download the script, and run it. It does not 
+perform any change in the running operating system or install
 any package/dependency.
 
 Currently the script can take from 5 minutes (in a blank Satellite), to about
@@ -41,12 +42,14 @@ Sure!
 
 ### The tool is slow.
 
-Sure it is! Launching lots of hammer commands have a lot of overhead.
+Sure it is! Launching lots of `hammer` commands have a lot of overhead. I'll 
+continue tunning which configurations have relevant information and removing
+the ones that don't add much value.
 
 
 ### I get hammer errors for some commands.
 
-The hammer tool has evolved along the different Satellite versions, and features
+The `hammer` tool has evolved along the different Satellite versions, and features
 get added/dropped as the Satellite evolve.
 
 It's ok if some tasks produce errors, they should be added into the report too.
