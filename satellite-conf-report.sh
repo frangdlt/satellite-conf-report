@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export LC_ALL=C
 source /etc/os-release
 
 # Default report location location
@@ -63,6 +64,16 @@ $(free -h)
 Environment proxy settings:
 
 $(env | grep -i proxy)
+
+IPs and routes:
+
+$(ip --brief address)
+
+$(ip --brief route | sort)
+
+Hosts file content:
+$(cat /etc/hosts)
+
 ~~~
 
 ## Satellite installer configuration
