@@ -74,6 +74,15 @@ $(ip --brief route | sort)
 Hosts file content:
 $(cat /etc/hosts)
 
+Subscription identity:
+$(subscription-manager identity)
+
+Installed packages:
+$(yum list installed | grep -i -P 'ansible|satellite|katello|foreman|puppet|ruby|epel')
+
+Repositories:
+$(yum repolist ; echo; yum repolist -v)
+
 ~~~
 
 ## Satellite installer configuration
